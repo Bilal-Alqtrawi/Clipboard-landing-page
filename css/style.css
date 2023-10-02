@@ -113,16 +113,18 @@ p {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    border-width: 1px;
+    border-style: solid ;
 }
 .downloads a:first-child{ 
     background-color: hsl(171, 66%, 44%);
-    box-shadow: 0 2px 1px hsl(171, 66%, 44%);
-    text-shadow:  0 1px 5px rgb( 0  0  0 / 30%);
+    box-shadow: 0 4px 10px 0px rgb(38, 186, 164 , 30%);
+    border-color: hsl(171, 66%, 44%);
 }
 .downloads a:last-child{ 
     background-color: hsl(233, 100%, 69%);
-    box-shadow: 0 2px 1px hsl(233, 100%, 69%);
-    text-shadow:  0 1px 5px rgb( 0  0  0 / 20%);
+    box-shadow: 0 2px 1px rgb(97, 115, 255,30%);
+    border-color: hsl(233, 100%, 69%);
 }
 
 /* End  Component */
